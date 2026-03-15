@@ -19,3 +19,4 @@ fi
 echo "Greetings $myname"
 echo 'Greetings $name'
 echo 'Gretings "($name)"'
+echo "I am $USER"
