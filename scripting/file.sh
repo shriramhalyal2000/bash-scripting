@@ -1,8 +1,12 @@
 #!/bin/bash
 
-dir=pwd
+working_dir=$pwd
+current_dir=$pwd
 echo "this is current working directory $dir"
 
-if [[ pwd == "/home/devops/bash-scripting/bash-scripting/scripting/" ]]; then
+
+if [ $working_dir -eq $current_dir ]; then
   echo "correct directory"
+else
+  echo "change to correct directory"
 fi
